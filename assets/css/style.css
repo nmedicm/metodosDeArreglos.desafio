@@ -1,0 +1,44 @@
+body{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.container{
+    width: 700px;
+    height: 300px;
+    background-color:lightgray;
+}
+
+#inputField{
+    border-radius: 5px;
+    width: 70%;
+    height: 30px;
+    font-size: large;
+}
+
+#btnSubmit{
+    border-radius: 5px;
+    width: 20%;
+    height: 35px;
+    font-size: large;
+    background-color: darkgreen;
+    color: white;
+    text-align: center;
+    margin-left: 10px;
+
+}
+
+#tasks{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+
+.taskList{
+    display: flex;
+    flex-direction: row;
+}
+
+#idList{
+    margin-left: 50px;
+}
+
